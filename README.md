@@ -3,7 +3,7 @@
 Use at your own risk. They're unsupported/undocumented internal API's which the web interface and backend use for operations.
 
 
-**GET** Additional Test details: ```/jira/rest/tests/1.0/testcase/TestCaseID```
+**GET** Additional Test details: ```/jira/rest/tests/1.0/testcase/TestCaseKey```
 
 **GET** Find all tests across all projects: ```/jira/rest/tests/1.0/testcase/search?```
 
