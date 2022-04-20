@@ -6,7 +6,7 @@ Use at your own risk. They're unsupported/undocumented internal API's which the 
 **GET** Additional Test details: ```/jira/rest/tests/1.0/testcase/TestCaseID```
 
 
-**GET** Find all tests across all projects: ```**/jira/rest/tests/1.0/testcase/search?**```
+**GET** Find all tests across all projects: ```/jira/rest/tests/1.0/testcase/search?```
 
 **POST** Archive a Test: ```/jira/rest/tests/1.0/testcase/bulk/unarchive``` (raw JSON with test ID within body ex. [100])
 
