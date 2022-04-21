@@ -7,6 +7,8 @@ Use at your own risk. They're unsupported/undocumented internal API's which the 
 
 **GET** Find all tests across all projects: ```/jira/rest/tests/1.0/testcase/search?```
 
+**GET** Get any fields from a JSON response in test query: ```/jira/rest/tests/1.0/testcase/TESTKEY?fields=fieldDesired``` (ex. precondition, id, archived, objective, etc...) 
+
 **GET** Search Users: ```/jira/rest/api/2/user?key=JIRAUSER20000``` (Or by username)
 
 **GET** JSON Report Output: ```/jira/rest/tests/1.0/reports/testresults/summary/testrun?displayUnit=COUNT&epicJQL=&jql=&period=MONTH&projectId=12300&scorecardOption=EXECUTION_RESULTS&tql=testResult.projectId IN (PROJECTID) AND testResult.executionDate >= '2022-04-20' AND testResult.executionDate <= '2022-04-20' AND testCase.onlyLastTestResult IS true&traceabilityCustomTreeDisplayOption=CONDENSED&traceabilityMatrixOption=COVERAGE_TEST_CASES&traceabilityReportOption=COVERAGE_TEST_CASES&traceabilityTreeOption=COVERAGE_TEST_CASES```
