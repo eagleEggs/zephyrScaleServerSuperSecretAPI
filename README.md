@@ -20,3 +20,7 @@ Use at your own risk. They're unsupported/undocumented internal API's which the 
 **POST** Archive a Test: ```/jira/rest/tests/1.0/testcase/bulk/unarchive``` (raw JSON with test ID within body ex. [100])
 
 **DELETE** Delete an Archived Test: ```/jira/rest/tests/1.0/testcasedelete``` (raw JSON with test ID within body ex. [100])
+
+**POST** Create Attachment: ```	/jira/rest/tests/1.0/testresult/TESTID/attachment```
+
+**DELETE** Delete an attachment: ```/jira/rest/tests/1.0/attachment/ATTACHMENTID```
